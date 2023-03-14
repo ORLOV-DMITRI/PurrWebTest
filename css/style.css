@@ -1,5 +1,140 @@
+<<<<<<< Updated upstream
 
 
 body{
   background-color: #020002;
 }
+=======
+@import url(fonts.scss);
+body {
+  background-color: #020002;
+  color: white;
+  position: relative;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.header {
+  /* .header__nav */
+  /* .header__login */
+  /* .header__text */
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 108px;
+  padding-top: 25px;
+  position: absolute;
+}
+.header__login {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.header__text {
+  border-bottom: 1px solid white;
+}
+
+.intro {
+  padding: 160px 0 24px 0;
+  background-image: url("../img/IntroBg.svg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  /* .intro__content */
+  /* .intro__text */
+  /* .intro__title */
+  /* .intro__subtitle */
+  /* .intro__subtitle-img */
+  /* .intro__subtitle-text */
+  /* .intro__download */
+}
+.intro__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 74px;
+}
+.intro__title {
+  font-size: 64px;
+  line-height: 70px;
+  margin-bottom: 88px;
+}
+.intro__subtitle {
+  display: flex;
+  gap: 31px;
+  align-items: flex-end;
+}
+.intro__subtitle-img {
+  position: relative;
+}
+.intro__subtitle-img::after {
+  content: "";
+  background-color: rgba(96, 92, 234, 0.5);
+  filter: blur(50px);
+  position: absolute;
+  width: 125px;
+  height: 125px;
+  top: 0;
+  left: 0;
+}
+.intro__subtitle-text {
+  font-size: 20px;
+  line-height: 27px;
+  max-width: 380px;
+}
+.intro__download {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.download {
+  display: flex;
+  font-size: 35px;
+  line-height: 70px;
+  /* .download__links */
+}
+.download__links {
+  display: flex;
+  gap: 30px;
+}
+
+.contact {
+  padding: 180px 0 230px 0;
+  /* .contact__inner */
+  /* .contact__card */
+  /* .contact__card-left */
+  /* .contact__title */
+  /* .contact__link */
+  /* .contact__card-right */
+}
+.contact__inner {
+  display: flex;
+  justify-content: space-around;
+}
+.contact__card {
+  border: 2px solid white;
+  border-radius: 20px;
+  max-width: 503px;
+  text-align: start;
+}
+.contact__card-left {
+  padding: 64px 73px 62px 55px;
+}
+.contact__title {
+  font-size: 30px;
+  line-height: 41px;
+  width: 300px;
+  margin-bottom: 30px;
+}
+.contact__link {
+  font-size: 24px;
+  line-height: 33px;
+  border-bottom: 1px solid white;
+}
+.contact__card-right {
+  padding: 97px 110px 94px 55px;
+}/*# sourceMappingURL=style.css.map */
+>>>>>>> Stashed changes
