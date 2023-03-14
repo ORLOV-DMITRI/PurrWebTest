@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Noto Sans";
+  src: local("Noto Sans Regular"), local("NotoSans-Regular"), url("../fonts/noto-sans.woff2") format("woff2"), url("../fonts/noto-sans.woff") format("woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Noto Sans";
+  src: local("Noto Sans Regular"), local("NotoSans-Regular"), url("../fonts/noto-sans.woff2") format("woff2"), url("../fonts/noto-sans.woff") format("woff");
+  font-weight: normal;
+}/*# sourceMappingURL=fonts.css.map */
